@@ -8,6 +8,35 @@ This is a lightweight Python tool that scans an IPv4 address for open ports. The
 - A combination of both (e.g., `22,80-85,443`)
 - A predefined set of common ports by typing `common`
 
+### Common Ports
+
+20: FTP Data  
+21: FTP Control  
+22: SSH  
+23: Telnet  
+25: SMTP  
+53: DNS  
+80: HTTP  
+110: POP3  
+123: NTP  
+137: NetBIOS Name Service  
+138: NetBIOS Datagram Service  
+139: NetBIOS Session Service  
+143: IMAP  
+161: SNMP  
+162: SNMP Trap  
+443: HTTPS  
+445: SMB  
+465: SMTPS  
+993: IMAPS  
+995: POP3S  
+3306: MySQL  
+3389: RDP  
+5432: PostgreSQL  
+5900: VNC  
+8080: Alternate HTTP  
+8443: Alternate HTTPS  
+
 ## Features
 
 - **IP Address Validation:**  
